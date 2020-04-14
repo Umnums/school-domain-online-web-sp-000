@@ -8,7 +8,8 @@ class School
 
   end
   def add_student(student,grade)
-    @roster[grade] = student.to_a
+    if !roster.includes?(grade)
+      @roster[grade] = []
   end
 
   def grade(num)
