@@ -22,7 +22,7 @@ class School
 
   def sort
     roster.each do |grade, student|
-      print roster[grade]
+      roster[grade].sort
     end
   end
 end
