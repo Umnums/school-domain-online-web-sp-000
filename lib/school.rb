@@ -19,4 +19,5 @@ class School
     roster.each do |grade, student|
       grade.values.sort
     end
+  end
 end
