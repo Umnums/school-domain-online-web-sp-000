@@ -23,7 +23,7 @@ class School
   def sort
     roster.each do |grade, student|
       student.each do |a, b|
-        prints student
+        print student
         a <=> b
       end
     end
