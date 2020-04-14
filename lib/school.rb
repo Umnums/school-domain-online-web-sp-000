@@ -4,7 +4,7 @@ class School
 
   attr_accesor :name
   def initialize(name)
-    @name=name
+    @name = name
   end
   def add_student(student,grade)
     roster(grade => student)
