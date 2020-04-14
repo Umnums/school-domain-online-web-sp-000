@@ -22,9 +22,7 @@ class School
 
   def sort
     roster.each do |grade, student|
-      student.each do |a, b|
-        print student
-        a <=> b
+      student.sort!{|a,b| a<=b}
       end
     end
   end
