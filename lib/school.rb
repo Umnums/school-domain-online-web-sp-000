@@ -1,6 +1,8 @@
 # code here!
 class School
   roster = {}
+
+  attr_accesor :name
   def initialize(name)
     @name=name
   end
