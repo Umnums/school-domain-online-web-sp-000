@@ -5,7 +5,7 @@ class School
     roster(grade => student)
   end
 
-  def grade(num
+  def grade(num)
 
   end
 end
